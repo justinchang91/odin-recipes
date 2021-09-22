@@ -1,0 +1,1 @@
+This project is a basic recipe webpage that consists of a main index page which will link to a few recipes. Basically just to practice HTML.
