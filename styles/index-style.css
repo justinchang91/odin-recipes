@@ -1,3 +1,29 @@
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgb(215, 233, 236);
+}
+
+.main-content {
+  margin-top: 50px;
+  border-radius: 25px;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+
+.menu {
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.menu .menu-title {
+  font-size: 60px;
+  margin-bottom: 0px;
+}
+
 h1,
 h2,
 ul {
@@ -8,15 +34,20 @@ h1 {
   font-size: 100px;
 }
 
-h2 {
+.main-content h2 {
   font-size: 30px;
+  margin-top: 0px;
 }
 
-ul {
+.main-content ul {
   font-size: 20px;
 }
 
 img { 
-  width: 300px;
+  width: 400px;
   height: auto;
+  display: block;
+  margin: 0 auto;
 }
+
+
