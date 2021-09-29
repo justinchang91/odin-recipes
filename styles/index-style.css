@@ -1,32 +1,13 @@
 body {
   max-width: 800px;
   margin: 0 auto;
-  background-color: rgb(215, 233, 236);
-}
-
-.main-content {
-  margin-top: 50px;
-  border-radius: 25px;
-  padding: 30px;
-  margin-bottom: 50px;
-}
-
-.menu {
-  border: 1px solid black;
-  border-radius: 25px;
-  width: 500px;
-  margin: 0 auto;
-  margin-top: 80px;
-}
-
-.menu .menu-title {
-  font-size: 60px;
-  margin-bottom: 0px;
+  background-color: white;
 }
 
 h1,
 h2,
-ul {
+ul,
+li {
   text-align: center;
 }
 
@@ -34,14 +15,14 @@ h1 {
   font-size: 100px;
 }
 
-.main-content h2 {
-  font-size: 30px;
-  margin-top: 0px;
+a {
+  color: black;
+  text-decoration: none;
 }
 
-.main-content ul {
-  font-size: 20px;
-}
+a:visited { text-decoration: none; color: black; }
+a:hover { text-decoration: none; color: rgb(105,105,105); }
+a:focus { text-decoration: none; color: black; }
 
 img { 
   width: 400px;
@@ -49,5 +30,44 @@ img {
   display: block;
   margin: 0 auto;
 }
+
+.greeting-message {
+  font-size: 30px;
+  margin-top: 65px;
+}
+
+.menu {
+  border: 3px solid black;
+  border-radius: 25px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 40px;
+}
+
+.menu .menu-title {
+  font-size: 60px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-decoration: underline;
+}
+
+.main-content {
+  border-radius: 25px;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+
+.main-content ul {
+  font-size: 20px;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.main-content ul li {
+  padding-bottom: 8px;
+}
+
+
 
 
